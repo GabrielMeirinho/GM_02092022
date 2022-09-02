@@ -1,0 +1,20 @@
+<div ui-view="header" autoscroll="false">
+  <h2 alignright="200+x">Accounts</h2>
+  <table class="table" border="1" [width]="1000">
+    <thead>
+      <tr>
+        <th scope="col">&nbsp;Bank Name&nbsp;</th>
+        <th scope="col">&nbsp;Card Number&nbsp;</th>
+        <th scope="col">&nbsp;Expire Date&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  scope="row" *ngFor="let account of accounts">
+        <td>&nbsp;{{account.bankname}}&nbsp;</td>
+        <td>&nbsp;{{account.cardnumber}}&nbsp;</td>
+        <td>&nbsp;{{account.expiredate}}&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

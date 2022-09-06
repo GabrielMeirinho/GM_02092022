@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+
+( To avoid CORS issues at chrome and others use for now use no security for test case [E.G. change icon properties to work like this "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web- security --disable-gpu ]
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
